@@ -46,4 +46,5 @@ git add index.html
 //ajoute index.html et command_terminal.txt
 git add index.html command_terminal.txt
 
-
+//pour lier votre git local à github :
+git remote add origin https://github.com/vuthyu/exemple.git
