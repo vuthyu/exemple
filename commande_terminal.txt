@@ -1,0 +1,49 @@
+//une ligne égale une commande à taper dans le terminal
+// ceci n'est en aucun cas du code de programmation
+
+//permet de connaître le répertoire où l'on se trouve :
+pwd
+
+//permet de vider le terminal
+clear
+//on peut faire la même avec un clic droit dans le terminal et l'option
+//"Effacer"
+
+//vous pouvez auto compléter le nom d'un dossier ou d'un fichier
+//avec la touche tabulation
+
+// affiche la liste des fichiers dans le répertoire courant
+ls
+ls -a
+
+//se déplacer dans l'arborescence via le terminal
+cd nomdurepertoirequinousinteresse
+
+//revenir au répertoire parent
+cd ..
+
+//initialiser le répertoire ou l'on utilise git
+//définit votre utilisateur git de manière global
+git config --global user.name "tppro"
+git config --global user.author "Tristan PLUMET"
+git config --global user.email "tristan@plumet.com"
+
+//vérifier les paramètres utilisateur
+git config --list
+
+//initialisation du répertoire pour travailler avec git
+git init 
+
+//voir l'état des fichiers
+git status
+
+//rajouter des fichiers à la sauvegarde prochaine dans git
+//ajoute tous les fichiers
+git add .
+git add *
+//ajoute index.html
+git add index.html
+//ajoute index.html et command_terminal.txt
+git add index.html command_terminal.txt
+
+
